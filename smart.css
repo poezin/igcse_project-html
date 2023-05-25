@@ -10,7 +10,9 @@ header{
 	height: 80px;
 	justify-content: space-between;
 }
-
+body {
+	background-color: #E9F4F8;
+}
 .logo{
 	display: flex;
 }
@@ -82,7 +84,7 @@ nav ul a:hover{
 }
 .images{
 	display: inline-block;
-	border: 1px solid #ddd;
+	border: 1px solid white;
 	align-items: center;
 	margin-right: 30px;
 	margin-top: 20px;
@@ -103,6 +105,21 @@ nav ul a:hover{
 .products{
 	margin-left: 20px;
 	align-content: center;
+	width: 100%;
+}
+.product_1{
+/*	border: 1px solid black;*/
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	margin:10px;
+}
+
+.product_2{
+/*	border: 1px solid black;*/
+	background-color: white;
+	display: inline-block;
+	width: 100%;
 }
 
 info{
@@ -113,16 +130,39 @@ info{
 footer{
 	display: inline-block;
 	background-color: #DBFAF8;
-	height: 80px;
+	height: 120px;
 	width: 100%;
+
 }
 
 .info{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 10px;
+	line-height: 25px;
 }
 
 .footer_logo img{
 	width: 100px;
 
 }
+
+.paragraph{
+	margin:10px;
+}
+.paragraph h1{
+	font-size: 30px;
+}
+.paragraph p{
+	text-indent: 30px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.paragraph h2{
+	line-height: 40px;
+}
+
+
+
