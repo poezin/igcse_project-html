@@ -82,6 +82,11 @@ nav ul a:hover{
 	width: 200px;
 	height: 200px;
 }
+
+.product_1, .product_2{
+	text-align: center;
+}
+
 .images{
 	display: inline-block;
 	border: 1px solid white;
